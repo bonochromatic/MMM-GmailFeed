@@ -1,4 +1,6 @@
-# MMM-GmailFeed
+# MMM-GmailFeed-Important
+This is a hacked-up version of shaneapowell's MMM-GmailFeed that shows the built-in "important" label messages only.
+--
 A module for the MagicMirror project which creates a table filled with the current list of unread gmail messages.  This module uses the gmail RSS feed instead of IMAP.
 
 ## Example 1
