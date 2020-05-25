@@ -9,7 +9,7 @@ module.exports = NodeHelper.create({
 
 	getFeed: function (config) {
 		var self = this;
-		var feedUrl = "https://mail.google.com/mail/feed/atom";
+		var feedUrl = "https://mail.google.com/mail/feed/atom/important";
 
 		request({url: feedUrl, auth: { user: config.username, pass: config.password } } , function (error, response, body) {
 			if (!error && response.statusCode == 200) {
